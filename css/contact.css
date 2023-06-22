@@ -117,3 +117,30 @@ input, textarea{
     }
     
 }
+@media screen and (max-width:412px) {
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+    .contact_form{
+        width: fit-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .form_name{
+        flex-direction: column;
+    }
+    .form_name input[type="text"]{
+        width: 100%;
+    }
+    .contact_form .btn{
+        width: 15rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        margin-left: 0;
+    }
+}
